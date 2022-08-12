@@ -2,19 +2,19 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "5a9025d2",
+   "id": "a6b74445",
    "metadata": {
     "papermill": {
-     "duration": 0.01754,
-     "end_time": "2022-08-05T17:02:59.015155",
+     "duration": 0.015553,
+     "end_time": "2022-08-12T18:38:02.075804",
      "exception": false,
-     "start_time": "2022-08-05T17:02:58.997615",
+     "start_time": "2022-08-12T18:38:02.060251",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "# About a company\n",
+    "# About Bellabeat\n",
     "\n",
     "Bellabeat, a high-tech manufacturer of health-focused products for women. Bellabeat is a successful small company, but they have the potential to become a larger player in the global smart device market. Urška Sršen, cofounder and Chief Creative Officer of Bellabeat, believes that analyzing smart device fitness data could help unlock new growth opportunities for the company\n",
     "\n",
@@ -34,19 +34,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "f7978ebb",
+   "id": "40c7a66e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-08-05T17:02:59.052378Z",
-     "iopub.status.busy": "2022-08-05T17:02:59.051645Z",
-     "iopub.status.idle": "2022-08-05T17:03:00.639055Z",
-     "shell.execute_reply": "2022-08-05T17:03:00.637868Z"
+     "iopub.execute_input": "2022-08-12T18:38:02.110476Z",
+     "iopub.status.busy": "2022-08-12T18:38:02.109095Z",
+     "iopub.status.idle": "2022-08-12T18:38:03.567220Z",
+     "shell.execute_reply": "2022-08-12T18:38:03.565919Z"
     },
     "papermill": {
-     "duration": 1.60759,
-     "end_time": "2022-08-05T17:03:00.639300",
+     "duration": 1.476542,
+     "end_time": "2022-08-12T18:38:03.567490",
      "exception": false,
-     "start_time": "2022-08-05T17:02:59.031710",
+     "start_time": "2022-08-12T18:38:02.090948",
      "status": "completed"
     },
     "tags": []
@@ -89,13 +89,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "05b3d6e9",
+   "id": "30eff759",
    "metadata": {
     "papermill": {
-     "duration": 0.015856,
-     "end_time": "2022-08-05T17:03:00.671909",
+     "duration": 0.015216,
+     "end_time": "2022-08-12T18:38:03.598471",
      "exception": false,
-     "start_time": "2022-08-05T17:03:00.656053",
+     "start_time": "2022-08-12T18:38:03.583255",
      "status": "completed"
     },
     "tags": []
@@ -108,19 +108,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "f814fe16",
+   "id": "915e97b3",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-08-05T17:03:00.745613Z",
-     "iopub.status.busy": "2022-08-05T17:03:00.708817Z",
-     "iopub.status.idle": "2022-08-05T17:03:00.909535Z",
-     "shell.execute_reply": "2022-08-05T17:03:00.907341Z"
+     "iopub.execute_input": "2022-08-12T18:38:03.668493Z",
+     "iopub.status.busy": "2022-08-12T18:38:03.632718Z",
+     "iopub.status.idle": "2022-08-12T18:38:03.852971Z",
+     "shell.execute_reply": "2022-08-12T18:38:03.850786Z"
     },
     "papermill": {
-     "duration": 0.221468,
-     "end_time": "2022-08-05T17:03:00.909710",
+     "duration": 0.23956,
+     "end_time": "2022-08-12T18:38:03.853196",
      "exception": false,
-     "start_time": "2022-08-05T17:03:00.688242",
+     "start_time": "2022-08-12T18:38:03.613636",
      "status": "completed"
     },
     "tags": []
@@ -136,37 +136,37 @@
   },
   {
    "cell_type": "markdown",
-   "id": "caa48eee",
+   "id": "b5b149df",
    "metadata": {
     "papermill": {
-     "duration": 0.015892,
-     "end_time": "2022-08-05T17:03:00.941161",
+     "duration": 0.015041,
+     "end_time": "2022-08-12T18:38:03.883919",
      "exception": false,
-     "start_time": "2022-08-05T17:03:00.925269",
+     "start_time": "2022-08-12T18:38:03.868878",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "I checked the data in Microsoft Excel. To verify that everything was imported correctly I used View() and head() functions."
+    "### I checked the data in Microsoft Excel. To verify that everything was imported correctly I used View() and head() functions."
    ]
   },
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "0a1f5cd3",
+   "id": "87c5d699",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-08-05T17:03:00.979006Z",
-     "iopub.status.busy": "2022-08-05T17:03:00.976704Z",
-     "iopub.status.idle": "2022-08-05T17:03:01.023930Z",
-     "shell.execute_reply": "2022-08-05T17:03:01.022293Z"
+     "iopub.execute_input": "2022-08-12T18:38:03.920120Z",
+     "iopub.status.busy": "2022-08-12T18:38:03.918364Z",
+     "iopub.status.idle": "2022-08-12T18:38:03.955642Z",
+     "shell.execute_reply": "2022-08-12T18:38:03.954137Z"
     },
     "papermill": {
-     "duration": 0.067451,
-     "end_time": "2022-08-05T17:03:01.024086",
+     "duration": 0.056648,
+     "end_time": "2022-08-12T18:38:03.955782",
      "exception": false,
-     "start_time": "2022-08-05T17:03:00.956635",
+     "start_time": "2022-08-12T18:38:03.899134",
      "status": "completed"
     },
     "tags": []
@@ -260,39 +260,39 @@
   },
   {
    "cell_type": "markdown",
-   "id": "4a98e0e2",
+   "id": "7327d247",
    "metadata": {
     "papermill": {
-     "duration": 0.016144,
-     "end_time": "2022-08-05T17:03:01.058080",
+     "duration": 0.016199,
+     "end_time": "2022-08-12T18:38:03.987836",
      "exception": false,
-     "start_time": "2022-08-05T17:03:01.041936",
+     "start_time": "2022-08-12T18:38:03.971637",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "I noticed some problems with the timestamp data in the spreadsheets. So before analysis, I needed to convert it to *date time* format and split to date and time.\n",
     "\n",
-    "# Fixing formatting"
+    "# Fixing formatting\n",
+    "I noticed some problems with the timestamp data in the spreadsheets. So before analysis, I needed to convert it to *date time* format and split to date and time.\n"
    ]
   },
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "42c6c19f",
+   "id": "fe832811",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-08-05T17:03:01.096723Z",
-     "iopub.status.busy": "2022-08-05T17:03:01.094790Z",
-     "iopub.status.idle": "2022-08-05T17:03:01.365038Z",
-     "shell.execute_reply": "2022-08-05T17:03:01.363781Z"
+     "iopub.execute_input": "2022-08-12T18:38:04.025652Z",
+     "iopub.status.busy": "2022-08-12T18:38:04.023960Z",
+     "iopub.status.idle": "2022-08-12T18:38:04.278371Z",
+     "shell.execute_reply": "2022-08-12T18:38:04.276635Z"
     },
     "papermill": {
-     "duration": 0.290998,
-     "end_time": "2022-08-05T17:03:01.365212",
+     "duration": 0.274912,
+     "end_time": "2022-08-12T18:38:04.278535",
      "exception": false,
-     "start_time": "2022-08-05T17:03:01.074214",
+     "start_time": "2022-08-12T18:38:04.003623",
      "status": "completed"
     },
     "tags": []
@@ -326,13 +326,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "cd36b344",
+   "id": "e44472eb",
    "metadata": {
     "papermill": {
-     "duration": 0.016727,
-     "end_time": "2022-08-05T17:03:01.398861",
+     "duration": 0.016354,
+     "end_time": "2022-08-12T18:38:04.311106",
      "exception": false,
-     "start_time": "2022-08-05T17:03:01.382134",
+     "start_time": "2022-08-12T18:38:04.294752",
      "status": "completed"
     },
     "tags": []
@@ -346,19 +346,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "6540ddc0",
+   "id": "4bf690dc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-08-05T17:03:01.438382Z",
-     "iopub.status.busy": "2022-08-05T17:03:01.436815Z",
-     "iopub.status.idle": "2022-08-05T17:03:01.479489Z",
-     "shell.execute_reply": "2022-08-05T17:03:01.477875Z"
+     "iopub.execute_input": "2022-08-12T18:38:04.349037Z",
+     "iopub.status.busy": "2022-08-12T18:38:04.347464Z",
+     "iopub.status.idle": "2022-08-12T18:38:04.399272Z",
+     "shell.execute_reply": "2022-08-12T18:38:04.397753Z"
     },
     "papermill": {
-     "duration": 0.064033,
-     "end_time": "2022-08-05T17:03:01.479666",
+     "duration": 0.072155,
+     "end_time": "2022-08-12T18:38:04.399420",
      "exception": false,
-     "start_time": "2022-08-05T17:03:01.415633",
+     "start_time": "2022-08-12T18:38:04.327265",
      "status": "completed"
     },
     "tags": []
@@ -465,13 +465,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "73cdc55c",
+   "id": "9ba1d123",
    "metadata": {
     "papermill": {
-     "duration": 0.020454,
-     "end_time": "2022-08-05T17:03:01.520538",
+     "duration": 0.018773,
+     "end_time": "2022-08-12T18:38:04.437083",
      "exception": false,
-     "start_time": "2022-08-05T17:03:01.500084",
+     "start_time": "2022-08-12T18:38:04.418310",
      "status": "completed"
     },
     "tags": []
@@ -487,19 +487,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "85b45199",
+   "id": "620da55e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-08-05T17:03:01.566416Z",
-     "iopub.status.busy": "2022-08-05T17:03:01.564746Z",
-     "iopub.status.idle": "2022-08-05T17:03:01.642193Z",
-     "shell.execute_reply": "2022-08-05T17:03:01.640865Z"
+     "iopub.execute_input": "2022-08-12T18:38:04.481088Z",
+     "iopub.status.busy": "2022-08-12T18:38:04.479069Z",
+     "iopub.status.idle": "2022-08-12T18:38:04.554248Z",
+     "shell.execute_reply": "2022-08-12T18:38:04.552826Z"
     },
     "papermill": {
-     "duration": 0.10174,
-     "end_time": "2022-08-05T17:03:01.642396",
+     "duration": 0.098635,
+     "end_time": "2022-08-12T18:38:04.554396",
      "exception": false,
-     "start_time": "2022-08-05T17:03:01.540656",
+     "start_time": "2022-08-12T18:38:04.455761",
      "status": "completed"
     },
     "tags": []
@@ -610,13 +610,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "3548a0b3",
+   "id": "059fa20f",
    "metadata": {
     "papermill": {
-     "duration": 0.021298,
-     "end_time": "2022-08-05T17:03:01.685635",
+     "duration": 0.020762,
+     "end_time": "2022-08-12T18:38:04.596038",
      "exception": false,
-     "start_time": "2022-08-05T17:03:01.664337",
+     "start_time": "2022-08-12T18:38:04.575276",
      "status": "completed"
     },
     "tags": []
@@ -644,19 +644,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "e31a3080",
+   "id": "92a349a0",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-08-05T17:03:01.735262Z",
-     "iopub.status.busy": "2022-08-05T17:03:01.733264Z",
-     "iopub.status.idle": "2022-08-05T17:03:01.778737Z",
-     "shell.execute_reply": "2022-08-05T17:03:01.776262Z"
+     "iopub.execute_input": "2022-08-12T18:38:04.644045Z",
+     "iopub.status.busy": "2022-08-12T18:38:04.642196Z",
+     "iopub.status.idle": "2022-08-12T18:38:04.680862Z",
+     "shell.execute_reply": "2022-08-12T18:38:04.679588Z"
     },
     "papermill": {
-     "duration": 0.071825,
-     "end_time": "2022-08-05T17:03:01.778898",
+     "duration": 0.064137,
+     "end_time": "2022-08-12T18:38:04.681004",
      "exception": false,
-     "start_time": "2022-08-05T17:03:01.707073",
+     "start_time": "2022-08-12T18:38:04.616867",
      "status": "completed"
     },
     "tags": []
@@ -758,13 +758,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d2396c68",
+   "id": "31e9a99c",
    "metadata": {
     "papermill": {
-     "duration": 0.022369,
-     "end_time": "2022-08-05T17:03:01.825665",
+     "duration": 0.021671,
+     "end_time": "2022-08-12T18:38:04.724563",
      "exception": false,
-     "start_time": "2022-08-05T17:03:01.803296",
+     "start_time": "2022-08-12T18:38:04.702892",
      "status": "completed"
     },
     "tags": []
@@ -776,19 +776,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "ef7e1de9",
+   "id": "4a69e858",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-08-05T17:03:01.878329Z",
-     "iopub.status.busy": "2022-08-05T17:03:01.876620Z",
-     "iopub.status.idle": "2022-08-05T17:03:04.034467Z",
-     "shell.execute_reply": "2022-08-05T17:03:04.035018Z"
+     "iopub.execute_input": "2022-08-12T18:38:04.773437Z",
+     "iopub.status.busy": "2022-08-12T18:38:04.771820Z",
+     "iopub.status.idle": "2022-08-12T18:38:06.678339Z",
+     "shell.execute_reply": "2022-08-12T18:38:06.678865Z"
     },
     "papermill": {
-     "duration": 2.187044,
-     "end_time": "2022-08-05T17:03:04.035216",
+     "duration": 1.932807,
+     "end_time": "2022-08-12T18:38:06.679034",
      "exception": false,
-     "start_time": "2022-08-05T17:03:01.848172",
+     "start_time": "2022-08-12T18:38:04.746227",
      "status": "completed"
     },
     "tags": []
@@ -822,13 +822,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b0a334e3",
+   "id": "3517535b",
    "metadata": {
     "papermill": {
-     "duration": 0.027877,
-     "end_time": "2022-08-05T17:03:04.090117",
+     "duration": 0.025663,
+     "end_time": "2022-08-12T18:38:06.731539",
      "exception": false,
-     "start_time": "2022-08-05T17:03:04.062240",
+     "start_time": "2022-08-12T18:38:06.705876",
      "status": "completed"
     },
     "tags": []
@@ -840,19 +840,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "87805392",
+   "id": "a552e3a7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-08-05T17:03:04.151568Z",
-     "iopub.status.busy": "2022-08-05T17:03:04.150049Z",
-     "iopub.status.idle": "2022-08-05T17:03:04.439719Z",
-     "shell.execute_reply": "2022-08-05T17:03:04.439038Z"
+     "iopub.execute_input": "2022-08-12T18:38:06.788992Z",
+     "iopub.status.busy": "2022-08-12T18:38:06.787260Z",
+     "iopub.status.idle": "2022-08-12T18:38:07.046391Z",
+     "shell.execute_reply": "2022-08-12T18:38:07.046906Z"
     },
     "papermill": {
-     "duration": 0.322853,
-     "end_time": "2022-08-05T17:03:04.439882",
+     "duration": 0.28964,
+     "end_time": "2022-08-12T18:38:07.047086",
      "exception": false,
-     "start_time": "2022-08-05T17:03:04.117029",
+     "start_time": "2022-08-12T18:38:06.757446",
      "status": "completed"
     },
     "tags": []
@@ -878,13 +878,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "af08bd22",
+   "id": "ed3e1094",
    "metadata": {
     "papermill": {
-     "duration": 0.028276,
-     "end_time": "2022-08-05T17:03:04.497836",
+     "duration": 0.027462,
+     "end_time": "2022-08-12T18:38:07.103429",
      "exception": false,
-     "start_time": "2022-08-05T17:03:04.469560",
+     "start_time": "2022-08-12T18:38:07.075967",
      "status": "completed"
     },
     "tags": []
@@ -899,19 +899,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "d0c7d5b3",
+   "id": "c5f22f77",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-08-05T17:03:04.560081Z",
-     "iopub.status.busy": "2022-08-05T17:03:04.558513Z",
-     "iopub.status.idle": "2022-08-05T17:03:04.887940Z",
-     "shell.execute_reply": "2022-08-05T17:03:04.885791Z"
+     "iopub.execute_input": "2022-08-12T18:38:07.163792Z",
+     "iopub.status.busy": "2022-08-12T18:38:07.162589Z",
+     "iopub.status.idle": "2022-08-12T18:38:07.446723Z",
+     "shell.execute_reply": "2022-08-12T18:38:07.445817Z"
     },
     "papermill": {
-     "duration": 0.362132,
-     "end_time": "2022-08-05T17:03:04.888120",
+     "duration": 0.315464,
+     "end_time": "2022-08-12T18:38:07.446869",
      "exception": false,
-     "start_time": "2022-08-05T17:03:04.525988",
+     "start_time": "2022-08-12T18:38:07.131405",
      "status": "completed"
     },
     "tags": []
@@ -951,13 +951,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ed26c0a6",
+   "id": "bb6fe141",
    "metadata": {
     "papermill": {
-     "duration": 0.030364,
-     "end_time": "2022-08-05T17:03:04.950082",
+     "duration": 0.030182,
+     "end_time": "2022-08-12T18:38:07.506537",
      "exception": false,
-     "start_time": "2022-08-05T17:03:04.919718",
+     "start_time": "2022-08-12T18:38:07.476355",
      "status": "completed"
     },
     "tags": []
@@ -973,19 +973,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "0cf9fc6d",
+   "id": "aad0e3b2",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-08-05T17:03:05.019485Z",
-     "iopub.status.busy": "2022-08-05T17:03:05.017932Z",
-     "iopub.status.idle": "2022-08-05T17:03:05.453926Z",
-     "shell.execute_reply": "2022-08-05T17:03:05.453153Z"
+     "iopub.execute_input": "2022-08-12T18:38:07.569852Z",
+     "iopub.status.busy": "2022-08-12T18:38:07.568599Z",
+     "iopub.status.idle": "2022-08-12T18:38:07.932959Z",
+     "shell.execute_reply": "2022-08-12T18:38:07.933587Z"
     },
     "papermill": {
-     "duration": 0.473574,
-     "end_time": "2022-08-05T17:03:05.454085",
+     "duration": 0.398335,
+     "end_time": "2022-08-12T18:38:07.933839",
      "exception": false,
-     "start_time": "2022-08-05T17:03:04.980511",
+     "start_time": "2022-08-12T18:38:07.535504",
      "status": "completed"
     },
     "tags": []
@@ -1020,13 +1020,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b7fb7454",
+   "id": "21042397",
    "metadata": {
     "papermill": {
-     "duration": 0.037143,
-     "end_time": "2022-08-05T17:03:05.534805",
+     "duration": 0.032326,
+     "end_time": "2022-08-12T18:38:08.001801",
      "exception": false,
-     "start_time": "2022-08-05T17:03:05.497662",
+     "start_time": "2022-08-12T18:38:07.969475",
      "status": "completed"
     },
     "tags": []
@@ -1061,16 +1061,15 @@
     "\n",
     "**Ideas for the Bellabeat app**\n",
     "\n",
-    "1. Average total steps per day are 7638 which a little bit less for having health benefits for according to the CDC research. They found that taking 8,000 steps per day was associated with a 51% lower risk for all-cause mortality (or death from all causes). Taking 12,000 steps per day was associated with a 65% lower risk compared with taking 4,000 steps. Bellabeat can encourage people to take at least 8 000 explaining the benefits for their health.\n",
+    "1. **Bellabeat can encourage people to take at least 8 000 explaining the benefits for their health.** Average total steps per day are 7638 which a little bit less for having health benefits for according to the CDC research. They found that taking 8,000 steps per day was associated with a 51% lower risk for all-cause mortality (or death from all causes). Taking 12,000 steps per day was associated with a 65% lower risk compared with taking 4,000 steps. \n",
     "\n",
-    "2. If users want to lose weight, or maintain a healthy BMI we can notify users with a BMI over 25 that they are at risk of becoming overweight or obese. Bella can also suggest that users increase excercise intesity, active minutes and to reduce calorie intake until they are back to the \"healthy weight\". We could also offer a similar feature for users that are \"under weight\" according to their BMI. However this would notify indiduals to increase their calorie intake.  \n",
+    "2. **If users want to lose weight, or maintain a healthy BMI we can notify users with a BMI over 25 that they are at risk of becoming overweight or obese.** Bella can also suggest that users increase exercise intensity, active minutes and to reduce calorie intake until they are back to the \"healthy weight\". We could also offer a similar feature for users that are \"under weight\" according to their BMI. However this would notify individuals to increase their calorie intake.\n",
     "\n",
-    "3. If users want to improve their sleep, Bellabeat should consider using app notifications to go to bed and recommend at least 7 hours of sleep for adults 18 and over. Over time Bellabeat can track and learn users patterns and suggest optimal sleep times to ensure users are getting the recommended amount of sleep.\n",
+    "3. **If users want to improve their sleep, Bellabeat should consider using app notifications to go to bed and recommend at least 7 hours of sleep for adults 18 and over.** Over time Bellabeat can track and learn users patterns and suggest optimal sleep times to ensure users are getting the recommended amount of sleep.\n",
     "\n",
-    "4. Also if users want to improve their sleep, the Bellabeat app can recommend reducing sedentary time. Bellabeat can show users data on the correlation of average active and sedentary minutes and how it relates to total minutes of sleep. Bellabeat can show users how they compare to other users.\n",
+    "4. **Also if users want to improve their sleep, the Bellabeat app can recommend reducing sedentary time.** Bellabeat can show users data on the correlation of average active and sedentary minutes and how it relates to total minutes of sleep. Bellabeat can show users how they compare to other users.\n",
     "\n",
-    "5. Most activity happens between 5 pm and 7 pm - It's possible people exercise or go to a gym. Or after finishing work they are walking more because they're running errands. We can use this time in the Bellabeat app to remind and motivate users to excerise by going for a run or walk.\n",
-    "\n",
+    "5. **We can use Bellabeat app to remind and motivate users to exercise between 5 pm and 7 pm.**\n",
     "\n",
     "\n",
     "\n"
@@ -1078,13 +1077,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "53060303",
+   "id": "48268e2b",
    "metadata": {
     "papermill": {
-     "duration": 0.032957,
-     "end_time": "2022-08-05T17:03:05.603411",
+     "duration": 0.034074,
+     "end_time": "2022-08-12T18:38:08.068033",
      "exception": false,
-     "start_time": "2022-08-05T17:03:05.570454",
+     "start_time": "2022-08-12T18:38:08.033959",
      "status": "completed"
     },
     "tags": []
@@ -1108,14 +1107,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 9.729521,
-   "end_time": "2022-08-05T17:03:05.759561",
+   "duration": 9.080684,
+   "end_time": "2022-08-12T18:38:08.210746",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2022-08-05T17:02:56.030040",
+   "start_time": "2022-08-12T18:37:59.130062",
    "version": "2.3.3"
   }
  },
