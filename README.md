@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Dphelpsjr
+- 👋 Hi, I’m Derrick
 - 👀 I’m interested in... data science and cybersecurity
 - 🌱 I’m currently learning... data analytics and cybersecurity
 - 💞️ I’m looking to collaborate on beginner level data analytics/science and cybersecurity projects. 
